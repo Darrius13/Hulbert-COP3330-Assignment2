@@ -2,8 +2,7 @@ package oop.assignment2.Ex40.base;
 import java.util.Date;
 import java.util.Scanner;
 
-public class FilteringRecords {
-
+public class FilterRecords {
     public static void main(String[] args) {
         Record[] records = {
                 new Record("John", "Johnson", "Manager", new Date(2016, 12, 31)),
@@ -43,4 +42,6 @@ class Record {
         this.seperationDate = seperationDate;
     }
 }
+
+
 
