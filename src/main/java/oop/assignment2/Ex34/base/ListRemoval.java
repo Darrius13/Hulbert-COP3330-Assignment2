@@ -1,5 +1,11 @@
 package oop.assignment2.Ex34.base;
 
+/*
+ *  UCF COP3330 Summer 2021 Assignment 2 Solution
+ *  Copyright 2021 Darrius Hulbert
+ */
+
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
