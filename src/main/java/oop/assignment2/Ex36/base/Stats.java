@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 
 public class Stats {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);//for taking user input
+        Scanner input = new Scanner(System.in);/
         ArrayList<Integer> numbers = new ArrayList<Integer>();//create an array list of integers
         String entry = null;
         //start a do-while loop

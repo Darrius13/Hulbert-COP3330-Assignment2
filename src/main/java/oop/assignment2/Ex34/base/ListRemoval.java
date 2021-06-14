@@ -22,10 +22,7 @@ public class ListRemoval {
         printEmployees(employees);//print employees
     }
 
-    /**
-     * print employees from the array list
-     * @param employees
-     */
+
     public static void printEmployees(ArrayList<String> employees) {
         System.out.println("There are "+employees.size()+" employees: ");
         for(String emp:employees) {

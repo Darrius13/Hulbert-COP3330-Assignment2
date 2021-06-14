@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class pickAWinner {
     public static void main(String[] args) {
 
-        Scanner input = new Scanner(System.in);//get user input
+        Scanner input = new Scanner(System.in);
         String name = null;
         ArrayList<String> nameList = new ArrayList<String>();//ArrayList for storing names
         //start a do-while loop to take name
@@ -25,7 +25,7 @@ public class pickAWinner {
         Random random = new Random();
         int randomIndex = random.nextInt(nameList.size());
 
-        //pick the winner at the randomIndex of nameList
+
         System.out.println("The winner is... "+nameList.get(randomIndex));
 
     }
